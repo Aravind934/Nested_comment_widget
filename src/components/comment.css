@@ -1,0 +1,36 @@
+.profile {
+    height: 30px;
+    width: 30px;
+}
+
+h4,
+span {
+    margin: 5px 0px 0px 5px;
+}
+
+span {
+    color: rgb(167, 163, 163);
+}
+
+p {
+    display: flex;
+    justify-content: left;
+}
+
+.box {
+    width: 350px;
+}
+
+.msg {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+div li {
+    margin-left: 10px;
+}
+
+.ml-5 {
+    margin-left: 15px;
+    cursor: pointer;
+}

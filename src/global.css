@@ -1,0 +1,56 @@
+h3,
+input {
+    letter-spacing: 1px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cmdBox {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 300px;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.highlightborder {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.normalBorder {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.btn-group {
+    margin-top: 6px;
+    margin-left: 120px;
+}
+
+.btn-group > button {
+    border: none;
+    height: 35px;
+    width: 85px;
+    margin-left: 3px;
+    font-weight: 600;
+    color: rgb(176, 171, 171);
+    letter-spacing: 0.5px;
+}
+
+.cancel {
+    background: none;
+    color: rgb(86, 84, 84) !important;
+}
