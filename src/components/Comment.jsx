@@ -21,7 +21,7 @@ const Comment = ({ item }) => {
             <div className="container">
                 <img src={profile} alt="help!" className="profile" />
                 <h4>Person name</h4>
-                <span>{moment(item.createdAt).fromNow()} minute ago</span>
+                <span>{moment(item.createdAt).fromNow()}</span>
             </div>
             <div className="container msg">
                 <p>{item.msg}</p>
